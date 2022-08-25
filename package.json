@@ -1,5 +1,8 @@
 {
   "name": "ajs",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +20,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "coursar",
+  "author": "aleksandr-suchugov <alex.coup@yandex.ru>",
   "license": "MIT",
   "repository": "https://github.com/Aleksandr-Suchugov/html-forms.git",
   "devDependencies": {
@@ -38,10 +41,12 @@
     "html-webpack-plugin": "^5.5.0",
     "http-server": "^14.1.1",
     "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
     "jsdoc": "^3.6.11",
     "live-server": "^1.2.2",
     "md-converter": "^1.0.3",
     "path": "^0.12.7",
+    "puppeteer": "^16.2.0",
     "style-loader": "^3.3.1",
     "url-loader": "^4.1.1",
     "webpack": "^5.74.0",
