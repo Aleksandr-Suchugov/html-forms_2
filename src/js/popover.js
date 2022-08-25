@@ -8,7 +8,7 @@ export default class Popover {
   markup() {
     return `
     <h3 class="popoverTitle">${this.title}</h3>
-    <div class="popoverContent">${this.content}</div> 
+    <div class="popoverContent">${this.content}</div>
     `;
   }
 
