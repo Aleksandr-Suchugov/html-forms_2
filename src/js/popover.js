@@ -15,7 +15,7 @@ export default class Popover {
   onClick(seconds) {
     const container = document.querySelector('.container-btn');
     const button = document.querySelector('.btn');
-    
+
     button.addEventListener('click', () => {
       if (this._flag) return;
       this._flag = true;
